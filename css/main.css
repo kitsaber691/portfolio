@@ -1,0 +1,51 @@
+/* Manually set display errors for older browsers, 
+courtesy of Nicholas Gallgher. 
+http://necolas.github.io/normalize.css/ */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {display: block;}
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* Color theme: "Where The Wild Things Are"
+https://color.adobe.com/Where-The-Wild-Things-Are-color-theme-7654707/
+Copyright Mariel Dunietz, 2016
+May be reproduced under the terms of the
+Creative Commons Attribution-ShareAlike 4.0 International License.
+https://creativecommons.org/licenses/by-sa/4.0/ */
+
+/* Global styles regardless of device */
+body {
+  background-color: #D9B36C;
+  font: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+h1, h2, h3, li {color: #73553C}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:visited {
+  color: black
+}
+
+@media only screen and (max-device-width: 4in) {
+  
+}
+
+@media only screen and (max-device-width: 9in) {
+  
+}
+
+@media only screen and (min-device-width: 9.01in) {
+  figure {
+    width: 45%;
+    margin: auto;
+  }
+  figure img {
+    width: 100%;
+    padding: 0;
+  }
+  h1, h2, h3, figcaption {
+    text-align: center;}
+}
