@@ -13,22 +13,31 @@
     <link type="text/css" rel="stylesheet" href="themes/jquery-custom.min.css">
     <link type="text/css" rel="stylesheet" href="themes/jquery.mobile.icons.min.css">
   </head>
-  <body>
-    <header>
+  <body data-role="page">
+    <header data-role="header">
       <h1>Technophile | Francophile | Foodie</h1>
     </header>
-    <nav>
+    <nav data-role="navbar">
       <ul>
-        <li>Home</li>
-        <li>Gallery</li>
-        <li>About</li>
+        <li><a href="index.html" class="ui-disabled">Home</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
       </ul>
     </nav>
-    <main>
-      <h2>Proud Seattleite</h2>
+    <main data-role="main" class="ui-content">
+      <h2>Who am I?</h2>
+      <section>
+        <h3>Brief Biography</h3>
+        <p>My name is Mariel Dunietz. I graduated from Scripps College in May of 2015.</p>
+        <p>I am motivated by the impossible.</p>
+      </section>
     </main>
-    <footer>
-      <p><a href="about.html">About and Copyright</a></p>
+    <footer data-role="footer">
+      <aside data-role="navbar">
+        <ul>
+          <li><a href="https://www.linkedin.com/in/marieldunietz">LinkedIn</a></li>
+        </ul>
+      </aside>
     </footer>
   </body>
 </html>
