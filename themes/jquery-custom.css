@@ -24,7 +24,7 @@ button,
 .ui-btn {
 	font-size: 1em;
 	line-height: 1.3;
-	        font-family: serif /*{global-font-family}*/;
+	   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; /*{global-font-family}*/;
 }
 legend,
 .ui-input-text input,
@@ -227,7 +227,7 @@ html body .ui-group-theme-a .ui-bar-inherit {
 	background-color: #BF9D73 /*{a-bar-background-color}*/;
 	border-color: #BF7960 /*{a-bar-border}*/;
 	color: #73553C /*{a-bar-color}*/;
-	text-shadow: 0 /*{a-bar-shadow-x}*/ 1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #cfaca0 /*{a-bar-shadow-color}*/;
+	text-shadow: 0 /*{a-bar-shadow-x}*/ 0px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #cfaca0 /*{a-bar-shadow-color}*/;
 	font-weight: bold;
 }
 .ui-bar-a {
@@ -253,7 +253,7 @@ html .ui-panel-page-container-a {
 	background-color: #BF9D73 /*{a-body-background-color}*/;
 	border-color: #BF7960 /*{a-body-border}*/;
 	color: #8c443e /*{a-body-color}*/;
-	text-shadow: 0 /*{a-body-shadow-x}*/ 1px /*{a-body-shadow-y}*/ 0 /*{a-body-shadow-radius}*/ #cfaca0 /*{a-body-shadow-color}*/;
+	text-shadow: 0 /*{a-body-shadow-x}*/ 0 /*{a-body-shadow-y}*/ 0 /*{a-body-shadow-radius}*/ #cfaca0 /*{a-body-shadow-color}*/;
 }
 .ui-body-a {
 	border-width: 1px;
@@ -416,4 +416,3 @@ button[disabled],
 	outline-width: 1px;
 	outline-style: auto;
 }
-			
