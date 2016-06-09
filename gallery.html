@@ -8,36 +8,69 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-    <script type="text/javascript" src="script/user.js"></script>
     <link type="text/css" rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css">
     <link type="text/css" rel="stylesheet" href="themes/jquery-custom.min.css">
     <link type="text/css" rel="stylesheet" href="themes/jquery.mobile.icons.min.css">
     <link type="text/css" rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <header data-role="header">
-      <h1>Personal Showcase</h1>
-    </header>
-    <nav data-role="navbar">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="gallery.html" class="ui-disabled">Gallery</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-    <section data-role="page" class="ui-content">
-      <h2>Hungry for Information</h2>
-      <p>I have been surrounded by technology my entire life - my very first sentence was "it is now safe to turn off your computer." I never owned a GameBoy or Nintendo 64 growing up. In my family, PC access was considered to be enough.</p>
-      <!-- Conclusion leading into Francophile section -->
-      <p>I continuously seek ways to integrate my skill with computers into my other passion: French. I taught myself to use AZERTY keyboards while in college, and type in French exclusively using that layout.</p>
-    </section>
-    <section data-role="page" class="ui-content">
-      <h2 lang="fr">On parle français dehors de la France aussi...</h2>
-      <h3>(French is spoken outside of France as well...)</h3>
-      <p></p>
-    </section>
-    <footer data-role="footer" class="ui-bar">
-      <p><a href="https://www.linkedin.com/in/marieldunietz" target="_blank">LinkedIn</a></p>
-    </footer>
+    <aside id="popup">
+      <p>You are using an unsupported browser. In order to best view this site, please upgrade to the latest version of Internet Explorer, or switch to a different browser.</p>
+    </aside>
+    <article data-role="page" id="info">
+      <section data-role="header" data-position="fixed">
+        <h1>Personal Showcase</h1>
+      </section>
+      <section data-role="navbar" data-position="fixed">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html" class="ui-disabled">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </section>
+      <section data-role="main" class="ui-content">
+        <h2>Hungry for Information</h2>
+        <p>I have been surrounded by technology my entire life - my very first sentence was "it is now safe to turn off your computer." I never owned a GameBoy or Nintendo 64 growing up. In my family, PC access was considered to be enough.</p>
+        <p class="ipsum">Page 569 sandy cave folded pile of plastic inventory private ivory rainbow. Hot peppers garlic large egg vampire bat framework. Egyptian room water large emerald brass bell. Unclimbable reception desk coins equipment.</p>
+        <p>I continuously seek ways to integrate my skill with computers into my other passion: French. I taught myself to use AZERTY keyboards while in college, and type in French exclusively using that layout.</p>
+        <a href="#interests" class="ui-btn ui-btn-inline ui-icon-arrow-r ui-btn-icon-right">Professional Interests</a>
+      </section>
+      <section data-role="footer" data-position="fixed">
+        <aside data-role="navbar">
+          <ul>
+            <li><a href="https://www.linkedin.com/in/marieldunietz" target="_blank">LinkedIn</a></li>
+          </ul>
+        </aside>
+      </section>
+    </article>
+    <article data-role="page" id="interests">
+      <section data-role="header" data-position="fixed">
+        <h1>Personal Showcase</h1>
+      </section>
+      <section data-role="navbar" data-position="fixed">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html" class="ui-disabled">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </section>
+      <section data-role="main" class="ui-content">
+        <h2>On parle français dehors de la France aussi...</h2>
+        <h3>(French is spoken outside of France as well...)</h3>
+        <p class="ipsum">Ça ne va jamais finir. Tu me manques. Parfois il peut être un gars bizarre. Je serai bientôt de retour. Qu'est-ce que tu fais ? Je ne peux que me demander si c'est la même chose pour tous les autres.</p>
+        <p class="ipsum">Tout le monde doit apprendre par soi-même en fin de compte. Pour une fois dans ma vie je fais un bon geste... Et ça ne sert à rien. L'éducation dans ce monde me déçoit. Je ne sais simplement pas quoi dire... J'ai toujours plus apprécié les personnages mystérieux. J'étais dans les montagnes.</p>
+        <p class="ipsum">Ça ne changera rien. C’était un méchant lapin. Ça coûtera 30 €.</p>
+        <a href="#info" class="ui-btn ui-btn-inline ui-icon-arrow-l ui-btn-icon-left">Go Back</a>
+        <a href="index.html" class="ui-btn ui-btn-inline ui-icon-arrow-r ui-btn-icon-right">Home Page</a>
+      </section>
+      <section data-role="footer" data-position="fixed">
+        <aside data-role="navbar">
+          <ul>
+            <li><a href="https://www.linkedin.com/in/marieldunietz" target="_blank">LinkedIn</a></li>
+          </ul>
+        </aside>
+      </section>
+    </article>
+    <script type="text/javascript" src="script/user.js"></script>
   </body>
 </html>

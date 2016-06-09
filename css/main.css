@@ -8,5 +8,12 @@ figure img {
   width: 100%;
 }
 figcaption {
-  text-align: center
+  text-align: center;
+  font-size: 0.75em;
+}
+a.ui-btn-icon-right {float: right}
+a.ui-btn-icon-left {float: left}
+.ipsum {
+  color: black;
+  font-style: italic
 }
