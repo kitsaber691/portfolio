@@ -1,8 +1,9 @@
 /* User modifications to custom jQuery theme */
 h2, h3, #popup {text-align: center}
 figure {
-    width: 45%;
-    margin: auto;
+  max-width: 45%;
+  float: right;
+  margin: auto;
   }
 figure img {
   width: 100%;
