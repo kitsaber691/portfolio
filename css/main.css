@@ -18,17 +18,3 @@ a.ui-btn-icon-left {float: left}
   color: black;
   font-style: italic
 }
-@media only screen and (min-width: 60em){
-  section.desk {
-    max-width: 30em;
-    float: left}
-  section.desk:after, #popup.after {
-    content: " ";
-    display: block;
-  }
-  section~section.desk {
-    float: right;
-    max-height: 100%;
-    max-width: 15em;
-    }
-}
